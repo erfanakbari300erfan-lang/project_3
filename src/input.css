@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+
+/* Fonts */
+@font-face {
+    font-family: "crimson-text_regular"; 
+    src: local(CrimsonText-Regular) , url("../Fonts/Crimson_Text/CrimsonText-Regular.ttf") format(ttf);
+}
+@font-face {
+    font-family: "dmsans_regular"; 
+    src: local(DMSans-Regular) , url("../Fonts/DM_Sans/static/DMSans-Regular.ttf") format(ttf);
+}
+@font-face {
+    font-family: "dmsans_bold"; 
+    src: local(DMSans-Bold) , url("../Fonts/DM_Sans/static/DMSans-Bold.ttf") format(ttf);
+}
+@font-face {
+    font-family: "roboto_regular"; 
+    src: local(RobotoMono-Regular) , url("../Fonts/Roboto_Mono/static/RobotoMono-Regular.ttf") format(ttf);
+}
+
+/* Custom Style */
+@theme{
+    --color-color-929292:#929292;
+    --color-color-E9E9E9:#E9E9E9;
+    --color-color-485C11:#485C11;
+    --color-color-8E9C78:#8E9C78;
+    --color-color-DFECC6:#DFECC6;
+    --shadow-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 8%);
+}
+
+
+    .container{
+        @apply mx-auto px-5;
+    }
+
+    .container {
+ width: 100%;
+ @media (width >= 40rem ) {
+ max-width: 40rem ;
+ }
+ @media (width >= 50rem ) {
+ max-width: 50rem ;
+ }
+ @media (width >= 64rem ) {
+ max-width: 64rem ;
+ }
+ @media (width >= 80rem ) {
+ max-width: 1200px;
+ }
+
+}
