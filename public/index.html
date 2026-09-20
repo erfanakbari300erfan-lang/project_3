@@ -1,13 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
     <link rel="stylesheet" href="Style/style.css">
 </head>
+
 <body>
+
+    <header class="mt-5">
+        <section id="header-section"
+            class=" h-[78px] transition-all duration-300 max-sm:shadow-HeaderMenu-Mobile max-sm:rounded-[20px] ">
+            <div class="container">
+                <!-- Menu Desktop -->
+                <div class="flex justify-between items-center">
+                    <h1 class="font-dm-sans font-medium text-3xl -tracking-[2px]">
+                        Area
+                    </h1>
+                    <nav class="font-dm-sans font-bold text-sm max-sm:hidden">
+                        <ul class="flex justify-center items-center gap-x-[27px]">
+                            <li>
+                                <a href="#">Benefits</a>
+                            </li>
+                            <li>
+                                <a href="#">Specifications</a>
+                            </li>
+                            <li>
+                                <a href="#">How-to</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="max-sm:hidden">
+
+                        <a href="#"
+                            class="bg-olive text-white font-dm-sans font-medium text-sm flex items-center gap-x-0.5 py-2.5 px-5.5 rounded-full">
+                            Learn More
+                            <div class="w-[7px]">
+                                <img src="Images/SVG/Arrow.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <span class="menu hidden max-sm:block">
+                        <img src="Images/SVG/Menu icon.svg" alt="Menu" class="menu_icon">
+                        <img src="Images/SVG/Close icon.svg" alt="Close" class="close_icon hidden size-6">
+                    </span>
+
+                </div>
+                <!-- Menu Mobile -->
+                <div class="hidden max-sm:block">
+                    <div id="menu-mobile"
+                        class="overflow-hidden max-h-0 opacity-0 transition-all duration-200 pointer-events-none">
+                        <nav class="font-dm-sans font-bold text-sm ">
+                            <ul
+                                class="flex flex-col mt-9 *:h-20 items-start gap-x-[27px] *:w-full *:flex *:items-center *:justify-start *:border-t-2 *:border-t-light-gray">
+                                <li>
+                                    <a href="#">Benefits</a>
+                                </li>
+                                <li>
+                                    <a href="#">Specifications</a>
+                                </li>
+                                <li>
+                                    <a href="#">How-to</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="mt-[50px]">
+
+                            <a href="#"
+                                class="flex items-center gap-x-0.5 w-[130px] h-[50px] bg-olive text-white font-dm-sans font-medium text-sm  py-2.5 px-5.5 rounded-full">
+                                Learn More
+                                <div class="w-[7px]">
+                                    <img src="Images/SVG/Arrow.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-12.5">
+            <div class="container">
+                <div class="">
+                    <h1
+                        class="font-crimson font-normal text-[150px] text-center leading-36 max-md:leading-26 max-md:text-[120px] max-sm:text-7xl max-sm:leading-20">
+                        Browse everything.
+                    </h1>
+                </div>
+                <div class="relative flex justify-center  h-150 overflow-hidden max-lg:h-120 max-sm:h-130">
+                    <div class="absolute z-10 mt-[110px] max-xl:-bottom-4 max-sm:-bottom-30">
+                        <picture class="">
+                            <source media="(min-width:1280px )" srcset="Images/Header_Desktop.png">
+                            <source media="(min-width:640px )" srcset="Images/Header_Ipad.png">
+                            <img src="Images/Header_iPhone.png" alt="" class=" w-[947px] h-[684px] max-xl:w-[900px] max-xl:h-[590px] max-lg:w-[700px] max-lg:h-[420px] max-[799px]:w-[580px] max-[799px]:h-[380px] max-sm:w-[270px] max-sm:h-[540px]
+    ">
+                        </picture>
+                    </div>
+
+                    <div class="absolute bottom-0 bg-sage w-full h-[360px] rounded-[20px] max-tablet:h-[300px] max-sm:h-[360px]"></div>
+                </div>
+            </div>
+        </section>
+    </header>
 
     <script src="Script/script.js"></script>
 </body>
+
 </html>
