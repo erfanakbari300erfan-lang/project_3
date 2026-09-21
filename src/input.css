@@ -84,7 +84,8 @@
 
 @theme {
     /* Colors */
-    --color-gray-custom: #929292;
+    --color-gray-custom_1: #929292;
+    --color-gray-custom_2: #6F6F6F;
     --color-light-gray: #E9E9E9;
     --color-olive: #485C11;
     --color-sage: #8E9C78;
