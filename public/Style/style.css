@@ -235,6 +235,9 @@
   .my-12\.5 {
     margin-block: calc(var(--spacing) * 12.5);
   }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
@@ -319,6 +322,12 @@
   .h-150 {
     height: calc(var(--spacing) * 150);
   }
+  .h-167 {
+    height: calc(var(--spacing) * 167);
+  }
+  .h-167\.5 {
+    height: calc(var(--spacing) * 167.5);
+  }
   .h-\[50px\] {
     height: 50px;
   }
@@ -367,6 +376,12 @@
   .max-w-142\.5 {
     max-width: calc(var(--spacing) * 142.5);
   }
+  .max-w-147 {
+    max-width: calc(var(--spacing) * 147);
+  }
+  .max-w-147\.5 {
+    max-width: calc(var(--spacing) * 147.5);
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -405,6 +420,12 @@
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
+  }
+  .gap-17 {
+    gap: calc(var(--spacing) * 17);
+  }
+  .gap-17\.5 {
+    gap: calc(var(--spacing) * 17.5);
   }
   .gap-x-0 {
     column-gap: 0;
@@ -535,6 +556,12 @@
   .pt-7\.5 {
     padding-top: calc(var(--spacing) * 7.5);
   }
+  .pt-12 {
+    padding-top: calc(var(--spacing) * 12);
+  }
+  .pt-12\.5 {
+    padding-top: calc(var(--spacing) * 12.5);
+  }
   .pt-20 {
     padding-top: calc(var(--spacing) * 20);
   }
@@ -575,6 +602,9 @@
   }
   .text-\[15px\] {
     font-size: 15px;
+  }
+  .text-\[40px\] {
+    font-size: 40px;
   }
   .text-\[60px\] {
     font-size: 60px;
@@ -750,6 +780,16 @@
       bottom: calc(var(--spacing) * -4);
     }
   }
+  .max-xl\:mr-2 {
+    @media (width < 80rem) {
+      margin-right: calc(var(--spacing) * 2);
+    }
+  }
+  .max-xl\:inline {
+    @media (width < 80rem) {
+      display: inline;
+    }
+  }
   .max-xl\:h-\[590px\] {
     @media (width < 80rem) {
       height: 590px;
@@ -758,6 +798,11 @@
   .max-xl\:w-\[900px\] {
     @media (width < 80rem) {
       width: 900px;
+    }
+  }
+  .max-xl\:flex-wrap {
+    @media (width < 80rem) {
+      flex-wrap: wrap;
     }
   }
   .max-lg\:h-120 {
@@ -783,6 +828,11 @@
   .max-lg\:grid-cols-1 {
     @media (width < 64rem) {
       grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  .max-lg\:flex-wrap {
+    @media (width < 64rem) {
+      flex-wrap: wrap;
     }
   }
   .max-lg\:pt-15 {
