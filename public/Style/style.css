@@ -238,6 +238,9 @@
   .my-12\.5 {
     margin-block: calc(var(--spacing) * 12.5);
   }
+  .my-30 {
+    margin-block: calc(var(--spacing) * 30);
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -364,14 +367,8 @@
   .w-34\.5 {
     width: calc(var(--spacing) * 34.5);
   }
-  .w-150 {
-    width: calc(var(--spacing) * 150);
-  }
   .w-\[7px\] {
     width: 7px;
-  }
-  .w-\[600px\] {
-    width: 600px;
   }
   .w-\[947px\] {
     width: 947px;
@@ -432,12 +429,6 @@
   }
   .justify-center {
     justify-content: center;
-  }
-  .gap-0 {
-    gap: 0;
-  }
-  .gap-0\.5 {
-    gap: calc(var(--spacing) * 0.5);
   }
   .gap-5 {
     gap: calc(var(--spacing) * 5);
@@ -545,6 +536,9 @@
   .fill-olive {
     fill: var(--color-olive);
   }
+  .p-30 {
+    padding: calc(var(--spacing) * 30);
+  }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
   }
@@ -556,6 +550,9 @@
   }
   .px-7\.5 {
     padding-inline: calc(var(--spacing) * 7.5);
+  }
+  .px-30 {
+    padding-inline: calc(var(--spacing) * 30);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -577,6 +574,9 @@
   }
   .py-20 {
     padding-block: calc(var(--spacing) * 20);
+  }
+  .py-30 {
+    padding-block: calc(var(--spacing) * 30);
   }
   .pt-7 {
     padding-top: calc(var(--spacing) * 7);
