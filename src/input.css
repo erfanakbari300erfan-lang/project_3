@@ -45,8 +45,12 @@
 ========================= */
 
 @layer base {
-    img{
+    img {
         width: 100%;
+    }
+
+    html {
+        scroll-behavior: smooth;
     }
 }
 
@@ -101,6 +105,3 @@
     --font-roboto-mono: "Roboto Mono", monospace;
 
 }
-
-
-
